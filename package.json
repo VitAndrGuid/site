@@ -1,0 +1,27 @@
+{
+  "name": "mysite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^3.5.17"
+  },
+  "devDependencies": {
+    "@unocss/preset-uno": "^66.4.1",
+    "@unocss/vite": "^66.4.1",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/tsconfig": "^0.7.0",
+    "gh-pages": "^6.3.0",
+    "typescript": "~5.8.3",
+    "unocss": "^66.4.1",
+    "vite": "^7.0.4",
+    "vue-tsc": "^2.2.12"
+  },
+  "packageManager": "pnpm@10.6.2+sha512.47870716bea1572b53df34ad8647b42962bc790ce2bf4562ba0f643237d7302a3d6a8ecef9e4bdfc01d23af1969aa90485d4cebb0b9638fa5ef1daef656f6c1b"
+}
